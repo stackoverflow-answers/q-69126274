@@ -1,0 +1,26 @@
+{
+  "name": "stackoverflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "4.5.2",
+    "react-dev-utils": "^11.0.4",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "4.2.3",
+    "url-loader": "^4.1.1",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.2",
+    "webpack-manifest-plugin": "^4.0.2"
+  },
+  "devDependencies": {}
+}
